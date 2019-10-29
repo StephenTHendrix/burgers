@@ -1,5 +1,7 @@
-<h1>Burgers!</h1>
+<h1 class = 'center'>Burgers!</h1>
 
+<div class = "lists">
+  <div class ='notDevoured'>
 <h2>Burgers that are not devoured!</h2>
 
 <ul>
@@ -9,7 +11,15 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
+<div class = 'picture'>
+
+<img src = 'https://previews.123rf.com/images/yupiramos/yupiramos1609/yupiramos160907967/62286421-icon-cartoon-burger-design-vector-illustration-eps-10.jpg'>
+
+</div>
+
+<div class = 'devoured'>
 <h2>Burgers that are devoured!</h2>
 
 <ul>
@@ -19,7 +29,10 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
+</div>
 
+<div class = 'addBurger center'>
 <h2>Add a Burger</h2>
 <form class="create-form">
 
@@ -36,3 +49,5 @@
 
   <button type="submit">Add Burger</button>
 </form>
+</div>
+
