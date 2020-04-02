@@ -3,7 +3,7 @@ $(function() {
   $(".change-devour").on("click", function(event) {
     var id = $(this).data("id");
     var newDevour = $(this).data("newdevour");
-
+// testing 504
     var newDevourState = {
       devoured: newDevour
     };
